@@ -1,6 +1,7 @@
-#define MAXSIZE 10
 #include <stdio.h>
 #include <stdlib.h>
+
+#define MAXSIZE 10
 
 struct ArrayStack{
 	int top ;
