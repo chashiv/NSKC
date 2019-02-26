@@ -23,6 +23,8 @@ int main(){
 		printf("%d ",pop(&top));
 	}
 	display(&top);
+	deleteStack(&top);
+	
 	return 0 ;
 }
 
@@ -67,3 +69,10 @@ void display(struct stack **top){
 	printf("\n");
 }
 
+void deleteStack(struct stack **top){
+	struct stack *tmp = *top; 
+	while(*top){
+		*top = (*top) -> next ;
+		free(tmp);
+	}
+}
