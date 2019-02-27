@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 string isPallindrome(string str)
 {
 	stack<char>stck;
@@ -23,10 +22,7 @@ string isPallindrome(string str)
 		}
 		i++;
 	}			
-	if ( stck.empty() )
-		return "Pallindrome" ;
-	else
-		return "Not Pallindrome" ;
+	return stck.empty() ? "Pallindrome" : "Not Pallindrome" ;
 }
 int main()
 {
@@ -34,7 +30,7 @@ int main()
 	cin >> t ;
 	while(t--)
 	{
-		string str ;
+		string str;
 		cin >> str;
 		cout << isPallindrome(str) << endl ;
 	}
