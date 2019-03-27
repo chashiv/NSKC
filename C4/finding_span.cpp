@@ -1,3 +1,9 @@
+/*
+   Author : Shivam Chauhan
+   Date   : Feb 28 , 2019
+   Finding the Span
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 void getSpan( int span[] , int n )
@@ -34,6 +40,5 @@ int main()
 		}
 		getSpan(span,n);
 	}
-
 	return 0 ;
 }
