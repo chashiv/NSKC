@@ -1,3 +1,9 @@
+/*
+   Author : Shivam Chauhan
+   Date   : Feb 27 , 2019
+   Get Minimum from the Stack in O(1)
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
