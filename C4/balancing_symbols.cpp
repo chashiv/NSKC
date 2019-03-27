@@ -1,3 +1,8 @@
+/*
+   Author : Shivam Chauhan
+   Date   : Feb 26 , 2019
+   Balancing Symbols Implementation
+*/
 #include <bits/stdc++.h>
 using namespace std ;
 bool isBalanced( string str )
