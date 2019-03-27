@@ -1,3 +1,8 @@
+/*
+   Author : Shivam Chauhan
+   Date   : Feb 27 , 2019
+   String is Pallindrome or Not
+*/
 #include <bits/stdc++.h>
 using namespace std;
 string isPallindrome(string str)
