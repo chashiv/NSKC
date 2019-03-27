@@ -1,3 +1,8 @@
+/*
+   Author : Shivam Chauhan
+   Date   : Feb 27 , 2019
+   Infix to Postfix Implementation
+*/
 #include <bits/stdc++.h>
 using namespace std ;
 int getPriority(char ch )
