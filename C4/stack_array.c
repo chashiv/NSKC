@@ -1,3 +1,8 @@
+/*
+   Author : Shivam Chauhan
+   Date   : Feb 26 , 2019
+   Implementation of Stack Using Array
+*/
 #include <stdio.h>
 #include <stdlib.h>
 
