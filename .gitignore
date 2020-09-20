@@ -4,3 +4,4 @@
 *.exe
 tmp.c
 tmp.cpp
+*.out
